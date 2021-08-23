@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  width: 100vw;
+  height: 10vh;
+}
+.hero-section {
+  width: 100vw;
+  height: 80vh;
+}
+.footer {
+  width: 100vw;
+  height: 10vh;
+}

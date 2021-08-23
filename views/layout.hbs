@@ -1,0 +1,49 @@
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Alejandro's Portfolio</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="/">Home
+        </a>
+        <a href="/about-me">About me</a>
+        <a href="/work">Work</a>
+        <a href="/social">Let's connect</a>
+      </nav>
+    </header>
+    <div class="hero-section">
+      {{{body}}}
+
+    </div>
+
+    <footer class="footer">
+      <form action="/subscribe" method="POST">
+        <h4>Subscribe to get weekly tips</h4>
+        <input
+          type="text"
+          name="name"
+          id="name-input"
+          placeholder="Full Name"
+        />
+        <input
+          type="email"
+          name="email"
+          id="email-input"
+          placeholder="example@address.com"
+          required
+        />
+        <button type="submit" id="subscribe-btn">Subscribe</button>
+      </form>
+    </footer>
+
+    <script src="/js/script.js"></script>
+  </body>
+
+</html>
