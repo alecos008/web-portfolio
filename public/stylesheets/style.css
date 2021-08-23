@@ -6,12 +6,37 @@
 .header {
   width: 100vw;
   height: 10vh;
+  display: flex;
+  align-items: center;
 }
 .hero-section {
   width: 100vw;
   height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
 }
 .footer {
   width: 100vw;
   height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#name-input {
+  height: 30px;
+}
+#email-input {
+  height: 30px;
+}
+a {
+  text-decoration: none;
+  column-gap: 5vw;
+}
+.navbar {
+  display: flex;
+  margin: 0 auto;
+  column-gap: 5vw;
 }
